@@ -1,0 +1,16 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-hx87f.hx87f.sandbox3154.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/janus-demo
+  org: assemble-dev-org
+  name: janus-demo
+
+image:
+  registry: Quay
+  organization: jfroehli
+  host: quay.io
+  name: my-quarkus-app
